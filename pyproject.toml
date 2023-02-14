@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "cebuano"
+version = "0.0.1"
+description = "Anki flashcard generator for Cebuano language"
+authors = ["Russell Jurney <russell.jurney@gmail.com>"]
+packages = [
+    { include = "cebuano" }
+]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/rjurney/Cebuano"
+keywords = [
+    "cebuano",
+    "anki",
+    "AnkiWeb",
+    "forvo",
+    "flashcards",
+]
+classifiers = [
+    "Environment :: Console",
+    "Framework :: Flake8",
+    "Framework :: Pytest",
+    "Framework :: tox",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Natural Language :: Cebuano",
+    "Topic :: Text Processing :: Linguistic",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Database",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+
+]
+include = ["LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+black = "^22.6.0"
+flake8 = "^4.0.1"
+isort = "^5.10.1"
+mypy = ">=0.971"
+flake8-docstrings = "^1.6.0"
+pydocstyle = "^6.1.1"
+pre-commit = "^2.19.0"
+ipython = "^8.4.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+target-version = ['py311']
+include = ['cebuano', 'tests']
+
+[tool.isort]
+profile = "black"
+src_paths = ["cebuano", "tests"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = ["cebuano", "tests"]
+warn_return_any = true
+warn_unused_configs = true
+warn_redundant_casts = true
+warn_unused_ignores = true
