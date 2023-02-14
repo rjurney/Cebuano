@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-    <img src="images/anki-logo.png" alt="Anki Flashcard Software Logo - reflected up by sitting on a shiny surface" width="300"/>
+    <img src="images/anki-logo.png" alt="Anki Flashcard Software Logo - reflected up by sitting on a shiny surface" height="200"/>
+    <img src="images/flag-of-cebu-province.png" alt="Flag of Cebu Province, Phillipines" height="200"/>
 </p>
 
 This is a project of <3 love... part of my effort to learn Cebuano to speak to Dr. Bautista's family, friends and community and to understand and integrate with her culture.
@@ -17,3 +18,4 @@ The goal of this project is to create an Anki template and associated Python scr
 [Anki](https://apps.ankiweb.net/) is a system for _powerful, intelligent flash cards_. I use them to accelerate my language learning because no matter how much grammer you know... without drilling words until you have contextual access to them, you do not know diddly doo :)
 
 This is a Python project to automate the creation of flashcards using the `genanki` PyPi module. In the past I have created flashcards as part of my own [rjurney/greek_anki](https://github.com/rjurney/greek_anki) project but I lost most of the code and the only thing remaining is [forvo.py](https://github.com/rjurney/greek_anki/blob/master/forvo.py) which did a pretty good job of downloading the audio file of the first pronunciation it found for an Ancient Greek word. I hope to make this work for Cebuano if practical.
+
