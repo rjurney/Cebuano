@@ -9,11 +9,11 @@
 
 This is a project of <3 love... part of my effort to learn Cebuano to speak to Dr. Bautista's family, friends and community and to understand and integrate with her culture. It helps to automatically build Anki flashcards for the Cebuano language.
 
-## What is Anki?
+## What is Anki? What is this project?
 
 [Anki](https://apps.ankiweb.net/) is a system for _powerful, intelligent flash cards_. I use them to accelerate my language learning because no matter how much grammer you know... without drilling words until you have contextual access to them, you do not know diddly doo :)
 
-This is a Python project to automate the creation of flashcards using the `genanki` PyPi module. In the past I have created flashcards as part of my own [rjurney/greek_anki](https://github.com/rjurney/greek_anki) project but I lost most of the code and the only thing remaining is [forvo.py](https://github.com/rjurney/greek_anki/blob/master/forvo.py) which did a pretty good job of downloading the audio file of the first pronunciation it found for an Ancient Greek word. I hope to make this work for Cebuano if practical.
+This is a Python project to automate the creation of flashcards using the [`genanki` PyPi module](https://github.com/kerrickstaley/genanki). In the past I have created flashcards as part of my own [rjurney/greek_anki](https://github.com/rjurney/greek_anki) project but I lost most of the code and the only thing remaining is [forvo.py](https://github.com/rjurney/greek_anki/blob/master/forvo.py) which did a pretty good job of downloading the audio file of the first pronunciation it found for an Ancient Greek word. I hope to make this work for Cebuano if practical.
 
 ## Python Environment Setup
 
