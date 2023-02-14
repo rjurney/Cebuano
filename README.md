@@ -59,3 +59,16 @@ If you do edit [pyproject.toml](pyproject.toml) you must update to regenerate [p
 poetry update
 ```
 
+## Building Cebuano Flashcards
+
+### Fetching Flashcard Metadata
+
+
+### Fetching Forvo Audio Files
+
+
+### Generating Anki Flashcards
+
+
+### Viewing Anki Flashcards
+
