@@ -19,3 +19,43 @@ The goal of this project is to create an Anki template and associated Python scr
 
 This is a Python project to automate the creation of flashcards using the `genanki` PyPi module. In the past I have created flashcards as part of my own [rjurney/greek_anki](https://github.com/rjurney/greek_anki) project but I lost most of the code and the only thing remaining is [forvo.py](https://github.com/rjurney/greek_anki/blob/master/forvo.py) which did a pretty good job of downloading the audio file of the first pronunciation it found for an Ancient Greek word. I hope to make this work for Cebuano if practical.
 
+## Python Environment Setup
+
+We use Anaconda Python3 with Poetry to manage the project environment. If you use something else, you're probably smart enough to make that work too.
+
+### Anaconda Python
+
+To create a conda environment for the project, run:
+
+```bash
+conda create -n cebuano -y python=3.11
+```
+
+### Poetry Dependencies
+
+We manage dependencies with [poetry](https://python-poetry.org/) which are managed (along with most settings) in [pyproject.toml](pyproject.toml).
+
+To install poetry, run:
+
+```bash
+curl -sSL https://install.python-poetry.org | python3 -
+```
+
+To build the project, run:
+
+```bash
+poetry install
+```
+
+To add a PyPi package, run:
+
+```bash
+poetry add <package>
+```
+
+If you do edit [pyproject.toml](pyproject.toml) you must update to regenerate [poetry.lock](poetry.lock):
+
+```bash
+poetry update
+```
+
